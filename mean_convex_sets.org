@@ -1,0 +1,37 @@
+#+TITLE: Mean Convex Sets
+#+AUTHOR: Paul Bryan
+#+SETUPFILE: ~/.emacs.d/org-templates/bibliography.org
+
+# ***  Class
+#+LATEX_CLASS: amsart
+
+# *** Macros
+#+LATEX_HEADER: \input{local_definitions}
+
+# *** For bundling
+#+LATEX_HEADER: \usepackage{snapshot}
+
+# *** Author
+#+LATEX_HEADER: \address{Department of Mathematics, University of California San Diego}
+#+LATEX_HEADER: \email{pbryan@ucsd.edu}
+
+# *** Metadata
+#+LaTeX_HEADER: \keywords{Ricci flow, Isoperimetric profile, curvature}
+#+LATEX_HEADER: \subjclass[2010]{53C44, 35K55, 58J35}
+
+# *** Other formatting settings
+#+LATEX_HEADER: \date{}
+
+* Notes								   :noexport:
+** Thoughts
+- I call a set mean convex, if locally the MCF level set flow is monotone
+- Smooth, mean convex hypersurfaces are mean convex sets, or maybe they bound a mean convex set - dunno yet
+- define the generalised mean curvature by integrating by parts - more or less it's the divergence of the unit normal
+- if you have a finite perimeter set, the unit normal is defined almost everywhere along the reduced boundary. then a conjecture would be that the generalised mean curvature of a mean convex set is defined almost everywhere and is non-negative. This would be like Aleksandrov's thm about 2nd derivatives of convex functions being defined almost everywhere
+- Convex sets always admit a convex flow with some regularity surely? Instantaneous smoothing?
+- Can mean convex sets be approximated smoothly? If so, can we get uniform estimates for MCF of mean-convex sets from the smooth approximation? Some connection with Ilmanen avoidance principle?
+- For the flow, can we recover Haslhofer-Hershicowitz theorem about exponential sup/inf bounds for H?
+- Can we deduce viscosity equations for H for this purpose?
+- What about time of arrival function? How may that we used.
+- See also [[notes:MR3455792][MR3455792-notes]]
+* Introduction
